@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.outer-container {
+    width: 300px;
+}
+
+.inner-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.table-header {
+    position: relative;
+}
+
+.table-header tr th {
+    height: 40px;
+    width:120px;
+    min-width: 120px;    
+}
+
+.table-body {
+    overflow: auto;
+}
+
+.table-body tr td {
+    width:120px;
+    min-width: 120px;   
+}
+
+.table-body tr td, .table-header tr th {
+    text-align: left;
+}
